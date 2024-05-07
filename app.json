@@ -1,0 +1,111 @@
+{
+  "name": "Zenon_BOT-V1",
+  "description": "تم تطرير البوت بواسطه تيم زينون وايتاتشي♥️",
+  "logo": "https://a.top4top.io/p_3048qrgqk1.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "GARENA", "Zenon", "elsony","Zenon","theme bot","multi device","baileys","Zenon"],
+  "success_url": "/",
+  "stack": "container",
+"env": {
+  "OWNER_NAME": {
+  "description": "اسم المطور",
+      "value": "Elsony ❄️& 👑"
+  },
+    "AUTO_STATUS_SAVER": {
+      "description": "لا تغيره.",
+       "required" :false
+      },
+	"AUTO_STATUS_READER": {
+      "description": "لا تغيره .",
+       "required" :false
+      },
+    "HEROKU_API_KEY": {
+    "description": "مفتاح هيروكو",
+     "required" :false
+    },
+ "HEROKU_APP_NAME": {
+    "description": "اسم التطبيق اللي كتبته بالاول.",
+    "required": "true"
+},
+   "THUMB_IMAGE": {
+    "description": "صوره البوت.",
+     "value": "https://telegra.ph/file/ab4018d27c9929dc12595.jpg"
+    },
+    "ANTI_BAD_WORD": {
+    "description": "لا تغيره",
+     "required" :false
+    },
+   "ANTILINK_VALUES": {
+    "description": "لا تغيره",
+     "value": "fchat.whatsapp.com,fb.com,instagram.com,wa.me,youtube.com",
+     "required" :false
+    },
+     "ANTILINK_ACTION": {
+    "description": "لا تغيره",
+     "value": "remove",
+     "required" :false
+    },
+  "LEVEL_UP_MESSAGE": {
+    "description": "ارتفاع المستوي تلقائي اذا تبي تشغله خليه true.",
+     "required" :false,
+     "value": "false"
+    },
+      "READ_MESSAGE": {
+    "description": "لا تغيره.",
+     "required" :true,
+     "value": "true"
+    },
+   "DISABLE_PM": {
+    "description": "لا تغيره",
+     "required" :false
+    },
+      "PREFIX": {
+  "description": "بادئه البوت.",
+      "value": "."
+  },
+  "OWNER_NUMBER": {
+    "description": "رقم المطور يمكن اضافه اكثر من مطور وافصلهم بـ \",\")",
+       "value": "201061419002"
+  },
+   "SESSION_ID": {
+    "description": "كود الجلسه احصل عليه من هنا https://Zenon-bott.netlify.app"
+  },
+    "OPENAI_API_KEY": {
+    "description": "لا تغيره ",
+       "value": "false",
+       "required" :false
+  },
+  "MONGODB_URI": {
+    "description": "رابط مونجو اذا ما تعرفه اتركه كما هو",
+    "value": "mongodb+srv://godzenitsu:safeer.123.@nezuko.7kvhs7q.mongodb.net/"
+  },
+    "THEME": {
+    "description": "اتركه كما هو",
+     "value": "Zenon"
+  },
+    "WORKTYPE": {
+  "description": "اذا تبي البوت عام. اكتب public واذا تبيه خاص اكتب private.",
+         "value": "public"
+  },
+      "AUTO_REACTION": {
+    "description": "تفاعل تلقائي علي كل الرسائل.",
+     "value": "false",
+     "required": false 
+  },
+  "PACK_INFO": {
+    "description": "حقوق الملصقات.",
+     "value": "Zenon;MD",
+     "required": false 
+  },
+  "heroku": {
+    "description": "اتركه كما هو",
+     "value": "true",
+     "required": false 
+  }
+},
+"formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "basic"
+		}
+	}
+}
