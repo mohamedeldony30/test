@@ -88,10 +88,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/Zenonbot2/Zenon_BOT-V1"
+                 "url": "git+https://github.com/mohamedeldony30/test"
                   },
                  "bugs": {
-                 "url": "https://github.com/Zenonbot2/Zenon_BOT-V1/issues"
+                 "url": "https://github.com/mohamedeldony30/test/issues"
                   },
-                 "homepage": "https://github.com/Zenonbot2/Zenon_BOT-V1#readme"
+                 "homepage": "https://github.com/mohamedeldony30/test#readme"
               }
